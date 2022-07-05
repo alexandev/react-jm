@@ -35,8 +35,8 @@ export class EventosES6 extends Component{
             <div>
                 <h2>Eventos en Componentes de Clase ES6</h2>
                 <nav>
-                    <button onClick={this.restar}>-</button>
-                    <button onClick={this.sumar}>+</button>
+                    <button onClick={ this.restar }>-</button>
+                    <button onClick={ this.sumar }>+</button>
                 </nav>
                 <h3>{this.state.contador}</h3>
             </div>
@@ -75,10 +75,10 @@ export class EventosES7 extends Component{
             <div>
                 <h2>Eventos en Componentes de Clase ES7</h2>
                 <nav>
-                    <button onClick={this.restar}>-</button>
-                    <button onClick={this.sumar}>+</button>
+                    <button onClick={ this.restar }>-</button>
+                    <button onClick={ this.sumar }>+</button>
                 </nav>
-                <h3>{this.state.contador}</h3>
+                <h3>{ this.state.contador }</h3>
             </div>
         );
     }
