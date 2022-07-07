@@ -12,13 +12,14 @@ import ComunicacionComponents from './components/12ComunicacionComponentes';
 import CicloVida from './components/13CicloVida';
 import AjaxApis from './components/14AjaxApis';
 import ContadorHooks from './components/16ContadorHooks';
-
+import ScrollHooks from './components/17ScrollHooks';
+import RelojHooks from './components/18RelojHooks';
 
 function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<section>
+				{/* <section>
 
 					<img src={logo} className="App-logo" alt="logo" />
 					<p>
@@ -74,12 +75,20 @@ function App() {
 
 				<hr />
 				<CicloVida/>
-
+					
 				<hr />
 				<AjaxApis/>
 
 				<hr />
-				<ContadorHooks titulo='seguidores'/>
+				<ContadorHooks titulo='seguidores'/> 
+
+				<hr />
+				<ScrollHooks/>
+				*/}
+
+				<hr />
+				<RelojHooks/>
+
 			</header>
 		
 		</div>
