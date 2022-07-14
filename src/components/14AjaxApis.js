@@ -46,7 +46,9 @@ export default class AjaxApis extends Component {
                 <div className="container-pokemons">
                     {this.state.pokemons.length === 0 
                         ? (<h3>Cargando...</h3>) 
-                        : this.state.pokemons.map(el => <Pokemon key={el.id} name={el.name} avatar={el.avatar}/>)
+                        : this.state.pokemons.map(el => {
+                            <Pokemon key={el.id} name={el.name} avatar={el.avatar}/>
+                        })
                     }
                 </div>
                 

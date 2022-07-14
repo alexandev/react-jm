@@ -1,19 +1,21 @@
 
 import React from 'react';
-import logo from './logo.svg';
-import Componente from './components/Componente';
-import Propiedades from './components/Propiedades';
-import Estado from "./components/Estado"
 import './App.css';
-import RenderizadoCondicional from './components/RenderizadoCondicional';
-import RenderizadoElementos from './components/RenderizadoElementos';
-import {EventosES6, EventosES7, MasSobreEventos} from './components/Eventos'
-import ComunicacionComponents from './components/12ComunicacionComponentes';
-import CicloVida from './components/13CicloVida';
-import AjaxApis from './components/14AjaxApis';
-import ContadorHooks from './components/16ContadorHooks';
-import ScrollHooks from './components/17ScrollHooks';
+// import logo from './logo.svg';
+// import Componente from './components/Componente';
+// import Propiedades from './components/Propiedades';
+// import Estado from "./components/Estado"
+// import RenderizadoCondicional from './components/RenderizadoCondicional';
+// import RenderizadoElementos from './components/RenderizadoElementos';
+// import {EventosES6, EventosES7, MasSobreEventos} from './components/Eventos'
+// import ComunicacionComponents from './components/12ComunicacionComponentes';
+// import CicloVida from './components/13CicloVida';
+// import AjaxApis from './components/14AjaxApis';
+// import ContadorHooks from './components/16ContadorHooks';
+// import ScrollHooks from './components/17ScrollHooks';
 import RelojHooks from './components/18RelojHooks';
+import AjaxHooks from './components/19AjaxHooks';
+import HooksPersonalizados from './components/20HooksPersonalizados';
 
 function App() {
 	return (
@@ -88,6 +90,13 @@ function App() {
 
 				<hr />
 				<RelojHooks/>
+
+				<hr />
+				<AjaxHooks/>
+
+				<hr />
+				<HooksPersonalizados/>
+
 
 			</header>
 		
