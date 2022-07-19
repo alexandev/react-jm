@@ -13,9 +13,10 @@ import './App.css';
 // import AjaxApis from './components/14AjaxApis';
 // import ContadorHooks from './components/16ContadorHooks';
 // import ScrollHooks from './components/17ScrollHooks';
-import RelojHooks from './components/18RelojHooks';
-import AjaxHooks from './components/19AjaxHooks';
-import HooksPersonalizados from './components/20HooksPersonalizados';
+// import RelojHooks from './components/18RelojHooks';
+// import AjaxHooks from './components/19AjaxHooks';
+// import HooksPersonalizados from './components/20HooksPersonalizados';
+import Referencias from './components/21Referencias';
 
 function App() {
 	return (
@@ -88,16 +89,17 @@ function App() {
 				<ScrollHooks/>
 				*/}
 
-				<hr />
+				{/* <hr />
 				<RelojHooks/>
 
 				<hr />
 				<AjaxHooks/>
 
 				<hr />
-				<HooksPersonalizados/>
+				<HooksPersonalizados/> */}
 
-
+				<hr />
+				<Referencias/>
 			</header>
 		
 		</div>
