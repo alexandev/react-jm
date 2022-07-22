@@ -16,8 +16,9 @@ import './App.css';
 // import RelojHooks from './components/18RelojHooks';
 // import AjaxHooks from './components/19AjaxHooks';
 // import HooksPersonalizados from './components/20HooksPersonalizados';
-import Referencias from './components/21Referencias';
-import Formularios from './components/22Formularios';
+// import Referencias from './components/21Referencias';
+// import Formularios from './components/22Formularios';
+import Estilos from './components/23Estilos';
 
 function App() {
 	return (
@@ -99,12 +100,15 @@ function App() {
 				<hr />
 				<HooksPersonalizados/> */}
 
-				<hr />
+				{/* <hr />
 				<Referencias/>
 
 				<hr />
-				<Formularios/>
+				<Formularios/> */}
+
+				<Estilos></Estilos>
 			</header>
+			
 		
 		</div>
 	);
